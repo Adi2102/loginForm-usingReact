@@ -1,0 +1,66 @@
+.container {
+  background-color: #00ffff;
+  margin: 180px;
+  height: 50vh;
+  border-radius: 30px;
+  box-shadow: 5px 6px 30px -4px rgb(0, 0, 0);
+}
+
+.email {
+  margin-left: 39%;
+}
+
+.email > label {
+  margin-top: 10px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.email > input {
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  background-color: blanchedalmond;
+  padding: 10px;
+  margin: 100px auto 0px auto;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.password {
+  margin-left: 38%;
+  margin-top: 10px;
+}
+
+.password > label {
+  padding-right: 7px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.password > input {
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  background-color: blanchedalmond;
+  padding: 10px;
+  margin: 10px auto 0px auto;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.loginBtn {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 120px;
+  margin-left: 38%;
+  margin-top: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: 5px 6px 30px -4px rgb(0, 0, 0);
+}
+
+.loginBtn:hover {
+  background-color: black;
+  color: whitesmoke;
+}
